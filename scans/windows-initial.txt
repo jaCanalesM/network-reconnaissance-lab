@@ -1,0 +1,29 @@
+# Nmap 7.99 scan initiated Sat Oct  3 10:04:56 2026 as: /usr/lib/nmap/nmap --privileged -oN /home/kali/network-reconnaissance-lab/scans/windows-initial.txt 192.168.108.129
+Nmap scan report for 192.168.108.129
+Host is up (0.00024s latency).
+Not shown: 979 closed tcp ports (reset)
+PORT      STATE SERVICE
+21/tcp    open  ftp
+22/tcp    open  ssh
+80/tcp    open  http
+135/tcp   open  msrpc
+139/tcp   open  netbios-ssn
+445/tcp   open  microsoft-ds
+3306/tcp  open  mysql
+3389/tcp  open  ms-wbt-server
+4848/tcp  open  appserv-http
+5985/tcp  open  wsman
+7676/tcp  open  imqbrokerd
+8009/tcp  open  ajp13
+8080/tcp  open  http-proxy
+8181/tcp  open  intermapper
+8383/tcp  open  m2mservices
+9200/tcp  open  wap-wsp
+49152/tcp open  unknown
+49153/tcp open  unknown
+49154/tcp open  unknown
+49155/tcp open  unknown
+49176/tcp open  unknown
+MAC Address: 00:0C:29:85:4C:28 (VMware)
+
+# Nmap done at Sat Oct  3 10:05:06 2026 -- 1 IP address (1 host up) scanned in 10.00 seconds

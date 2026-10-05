@@ -1,0 +1,20 @@
+# Nmap 7.99 scan initiated Sat Oct  3 10:34:58 2026 as: /usr/lib/nmap/nmap --privileged -sV -oN /home/kali/network-reconnaissance-lab/scans/ubuntu-services.txt 192.168.108.128
+Nmap scan report for 192.168.108.128
+Host is up (0.00081s latency).
+Not shown: 990 closed tcp ports (reset)
+PORT     STATE SERVICE     VERSION
+21/tcp   open  ftp         ProFTPD 1.3.5
+22/tcp   open  ssh         OpenSSH 6.6.1p1 Ubuntu 2ubuntu2.13 (Ubuntu Linux; protocol 2.0)
+80/tcp   open  http        Apache httpd 2.4.7
+111/tcp  open  rpcbind     2-4 (RPC #100000)
+139/tcp  open  netbios-ssn Samba smbd 3.X - 4.X (workgroup: WORKGROUP)
+445/tcp  open  netbios-ssn Samba smbd 3.X - 4.X (workgroup: WORKGROUP)
+631/tcp  open  ipp         CUPS 1.7
+3306/tcp open  mysql       MySQL (unauthorized)
+6667/tcp open  irc         UnrealIRCd
+8080/tcp open  http        Jetty 8.1.7.v20120910
+MAC Address: 00:0C:29:F8:E2:A7 (VMware)
+Service Info: Hosts: 127.0.0.1, UBUNTU, irc.TestIRC.net; OSs: Unix, Linux; CPE: cpe:/o:linux:linux_kernel
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Sat Oct  3 10:35:14 2026 -- 1 IP address (1 host up) scanned in 15.91 seconds

@@ -1,0 +1,18 @@
+# Nmap 7.99 scan initiated Sat Oct  3 10:04:06 2026 as: /usr/lib/nmap/nmap --privileged -oN network-reconnaissance-lab/scans/ubuntu-initial.txt 192.168.108.128
+Nmap scan report for 192.168.108.128
+Host is up (0.00099s latency).
+Not shown: 990 closed tcp ports (reset)
+PORT     STATE SERVICE
+21/tcp   open  ftp
+22/tcp   open  ssh
+80/tcp   open  http
+111/tcp  open  rpcbind
+139/tcp  open  netbios-ssn
+445/tcp  open  microsoft-ds
+631/tcp  open  ipp
+3306/tcp open  mysql
+6667/tcp open  irc
+8080/tcp open  http-proxy
+MAC Address: 00:0C:29:F8:E2:A7 (VMware)
+
+# Nmap done at Sat Oct  3 10:04:11 2026 -- 1 IP address (1 host up) scanned in 4.75 seconds

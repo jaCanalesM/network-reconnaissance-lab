@@ -1,0 +1,17 @@
+# Environment files
+.env
+.env.*
+
+# Private keys and certificates
+*.key
+*.pem
+*.p12
+*.pfx
+
+# SSH private keys
+id_rsa
+id_ed25519
+
+# OS files
+.DS_Store
+Thumbs.db
