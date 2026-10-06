@@ -35,7 +35,7 @@ Las máquinas objetivo permanecen dentro de la red Host-Only.
 
 Topología
                
-    <img width="302" height="361" alt="topologia" src="https://github.com/user-attachments/assets/0ed4892b-74d4-4141-aa00-b98d4f3a43bb" />
+<img width="302" height="361" alt="topologia" src="https://github.com/user-attachments/assets/512cd727-4282-4013-8f20-67015955f0bd" />
 
 
 Metodología
