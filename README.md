@@ -34,23 +34,10 @@ eth1 → NAT para acceso a Internet y administración del repositorio.
 Las máquinas objetivo permanecen dentro de la red Host-Only.
 
 Topología
-                    Internet
-                       │
-                     NAT
-                       │
-               ┌───────┴────────┐
-               │   Kali Linux   │
-               │ 192.168.108.130│
-               └───────┬────────┘
-                       │
-                  Host-Only
-                       │
-             ┌─────────┴─────────┐
-             │                   │
-     ┌───────▼────────┐   ┌───────▼────────┐
-     │     Ubuntu     │   │ Windows Server │
-     │ 192.168.108.128│   │ 192.168.108.129│
-     └────────────────┘   └────────────────┘
+               
+    <img width="302" height="361" alt="topologia" src="https://github.com/user-attachments/assets/0ed4892b-74d4-4141-aa00-b98d4f3a43bb" />
+
+
 Metodología
 
 El proyecto sigue un proceso progresivo de reconocimiento y evaluación:
