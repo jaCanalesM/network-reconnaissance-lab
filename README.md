@@ -166,21 +166,9 @@ Los resultados automatizados de Nmap no se consideran evidencia suficiente por s
 
 Estructura del repositorio
 network-reconnaissance-lab/
-│
-├── README.md
-│
-├── scans/
-│   ├── ubuntu-initial.txt
-│   ├── ubuntu-services.txt
-│   ├── ubuntu-enumeration.txt
-│   ├── ubuntu-vuln.txt
-│   ├── windows-initial.txt
-│   ├── windows-services.txt
-│   ├── windows-enumeration.txt
-│   └── windows-vuln.txt
-│
-└── reports/
-    └── findings.md
+
+<img width="211" height="411" alt="estructura" src="https://github.com/user-attachments/assets/3aeb48c5-b0e8-42f7-982c-df27eb0132b6" />
+
 
 Los archivos dentro de scans/ contienen los resultados originales obtenidos durante las diferentes fases de reconocimiento.
 
